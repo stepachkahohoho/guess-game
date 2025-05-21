@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "674497774606",
+    "project_id": "guessgame-f7ad4",
+    "storage_bucket": "guessgame-f7ad4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674497774606:android:6192053a06d7c9d378a85f",
+        "android_client_info": {
+          "package_name": "com.example.guessgame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGZT3fHGl2X4gl4kU7vdNMyjA_CeASjjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

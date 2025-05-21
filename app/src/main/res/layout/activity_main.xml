@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    android:background="#FAFAFA">
+
+    <Button
+        android:id="@+id/btnCreateRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Создать комнату"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/inputRoomCode"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:hint="Код комнаты (6 симв.)"
+        android:maxLength="6"
+        android:inputType="text"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnJoinRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Войти по коду"/>
+</LinearLayout>
